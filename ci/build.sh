@@ -1,1 +1,1 @@
-#!/usr/bin/env bashset -e -xgit clone sample-app resource-appecho "creating file"cd resource-appecho "created the file"#mvn clean compile#echo " done compiling"mvn installecho "done installing"#java de/bitkings/nitram509/ConcourseJavaMavenTestPrjApplicationmvn testecho "done testing"
+#!/usr/bin/env bashset -e -xgit clone ownmavenhelloworld resource-appecho "creating file"cd resource-appecho "created the file"#mvn clean compile#echo " done compiling"mvn installecho "done installing"#java de/bitkings/nitram509/ConcourseJavaMavenTestPrjApplicationmvn testecho "done testing"
