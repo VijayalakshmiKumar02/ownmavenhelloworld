@@ -1,1 +1,1 @@
----platform: linuximage_resource:   type: docker-image  source:    repository: maven    tag: latest    inputs:  - name: ownmavenhelloworld  outputs:  - name: resource-app  run:  path: ownmavenhelloworld/ci/build.sh
+---platform: linuximage_resource:   type: docker-image  source:    repository: maven    tag: latest    inputs:  - name: sample-app  outputs:  - name: resource-app  run:  path: sample-app/ci/build.sh
